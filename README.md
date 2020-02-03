@@ -1,3 +1,3 @@
 # API_tests
 
-Automated API tests. Stack - Supertest/Jest/Javascript
+Automated API tests. Stack - PHP/Codeception
