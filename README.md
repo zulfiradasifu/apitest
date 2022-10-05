@@ -1,3 +1,4 @@
 # API_tests
 
-Automated API tests. Stack - PHP/Codeception
+Automated API tests. 
+Stack - Python
