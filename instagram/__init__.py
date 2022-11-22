@@ -4,6 +4,8 @@ from config import baseURL
 
 
 def receiveInstagramGalleries(access_token=get_token()):
-    r = requests.get(baseURL+'reviews/',
-                     headers={'Authorization': 'Bearer {}'.format(access_token)})
+    r = requests.get(
+        baseURL + "reviews/",
+        headers={"Authorization": "Bearer {}".format(access_token)},
+    )
     return r

@@ -10,5 +10,4 @@ class TestReceiveInstagramGalleries:
         assert receiveInstagramGalleries().status_code == status404
 
     def test_receiveInstagramGalleries401(self):
-        assert receiveInstagramGalleries('').status_code == status401
-
+        assert receiveInstagramGalleries("").status_code == status401
