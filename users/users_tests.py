@@ -11,7 +11,7 @@ class TestReceiveSingleUser:
         assert r.status_code == status200
 
     def test_receiveSingleUser401(self):
-        r = receiveSingleUser(1, "")
+        r = receiveSingleUser(42272, "")
         res_json = r.json()
         assert res_json["message"] == "Unauthorized"
         assert r.status_code == status401
