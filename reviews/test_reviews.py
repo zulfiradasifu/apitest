@@ -1,5 +1,4 @@
 from reviews import receiveListOfReviews
-from config import status200, status401, status404, status406
 
 
 class TestReceiveListOfReviews:
@@ -14,13 +13,13 @@ class TestReceiveListOfReviews:
         res_json = r.json()
 
     # def test_receiveListOfUsersReviews(self):
-    #     assert receiveListOfUsersReviews(1).status_code == status200
+    #     assert receiveListOfUsersReviews(1).status_code == 200
     #
     # def test_receiveReviewsWithoutToken(self):
-    #     assert receiveListOfReviews("").status_code == status401
+    #     assert receiveListOfReviews("").status_code == 401
     #
     # def test_receiveListOfProductReviews404(self):
-    #     assert receiveListOfProductReviews(1).status_code == status404
+    #     assert receiveListOfProductReviews(1).status_code == 404
     #
     # def test_receiveListOfUsersReviews404(self):
-    #     assert receiveListOfUsersReviews(1).status_code == status404
+    #     assert receiveListOfUsersReviews(1).status_code == 404
