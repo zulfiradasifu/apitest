@@ -27,7 +27,7 @@ class TestListOfUsers:
     def test_listOfUsers(self):
         r = listOfUsers()
         res_json = r.json()
-        assert res_json["data"][0]["user_id"] == 42340
+        assert res_json["data"][0]["user_id"] == 42341
         assert res_json["message"] == "OK"
         assert r.status_code == 200
 
