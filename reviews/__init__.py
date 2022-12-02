@@ -2,7 +2,7 @@ import requests
 from authentification import get_token
 from config import baseURL
 
-r = requests.request(method=["GET"], url=baseURL, headers={}, cookies={})
+# r = requests.request(method=["GET"], url=baseURL, headers={}, cookies={})
 
 def receiveListOfReviews(*args, access_token=get_token()):
     if args:
